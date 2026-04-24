@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pythonを3ヶ月独学してエンジニア転職した方法【ロードマップ公開】| 金融マンがエンジニアになった話</title>
+<meta name="description" content="Pythonを3ヶ月独学してエンジニア転職を成功させた学習ロードマップを公開。使った教材・学習の順番・つまずいたポイントを正直に書きます。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700;900&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root { --bg: #F5F0E8; --card: #FDFAF4; --accent: #1A3A2A; --accent2: #C4572A; --accent3: #8B6914; --text: #1C1A16; --text2: #5C5648; --text3: #9C9080; --border: rgba(28,26,22,0.12); }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--bg); color: var(--text); font-family: 'Noto Serif JP', serif; line-height: 1.9; }
+  nav { position: sticky; top: 0; z-index: 100; background: rgba(245,240,232,0.92); backdrop-filter: blur(8px); border-bottom: 1px solid var(--border); padding: 0 2rem; display: flex; align-items: center; justify-content: space-between; height: 52px; }
+  .nav-logo { font-size: 13px; font-weight: 700; color: var(--accent); text-decoration: none; }
+  .nav-back { font-family: 'DM Mono', monospace; font-size: 12px; color: var(--text2); text-decoration: none; }
+  .nav-back:hover { color: var(--accent); }
+  .article-wrap { max-width: 720px; margin: 0 auto; padding: 4rem 2rem 6rem; }
+  .article-meta { display: flex; align-items: center; gap: 12px; margin-bottom: 1.5rem; }
+  .article-tag { font-family: 'DM Mono', monospace; font-size: 10px; padding: 2px 8px; border-radius: 2px; background: rgba(26,58,42,0.1); color: var(--accent); }
+  .article-date { font-family: 'DM Mono', monospace; font-size: 11px; color: var(--text3); }
+  .article-title { font-size: clamp(1.6rem, 4vw, 2.4rem); font-weight: 900; color: var(--accent); line-height: 1.3; margin-bottom: 1rem; letter-spacing: -0.02em; }
+  .article-lead { font-size: 1rem; color: var(--text2); border-left: 3px solid var(--accent2); padding-left: 1.2rem; margin-bottom: 3rem; line-height: 2; }
+  .article-body h2 { font-size: 1.3rem; font-weight: 700; color: var(--accent); margin: 2.5rem 0 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border); }
+  .article-body h3 { font-size: 1.1rem; font-weight: 700; color: var(--text); margin: 2rem 0 0.8rem; padding-left: 0.8rem; border-left: 3px solid var(--accent3); }
+  .article-body p { font-size: 14px; color: var(--text2); margin-bottom: 1.2rem; line-height: 2; }
+  .article-body ul { margin: 1rem 0 1.2rem 1.5rem; }
+  .article-body ul li { font-size: 14px; color: var(--text2); margin-bottom: 0.5rem; line-height: 1.8; }
+  .month-box { background: var(--card); border: 1px solid var(--border); border-radius: 4px; padding: 1.5rem; margin: 1.2rem 0; border-top: 3px solid var(--accent); }
+  .month-label { font-family: 'DM Mono', monospace; font-size: 11px; color: var(--accent2); letter-spacing: 0.1em; margin-bottom: 8px; }
+  .month-title { font-size: 15px; font-weight: 700; color: var(--accent); margin-bottom: 8px; }
+  .month-content { font-size: 13px; color: var(--text2); line-height: 1.9; }
+  .highlight { background: rgba(196,87,42,0.08); border-radius: 4px; padding: 1.2rem 1.5rem; margin: 1.5rem 0; border-left: 3px solid var(--accent2); }
+  .highlight p { margin-bottom: 0; font-size: 14px; color: var(--text); }
+  .affiliate-box { background: var(--card); border: 1px solid var(--border); border-radius: 4px; padding: 1.5rem; margin: 2rem 0; }
+  .affiliate-box h4 { font-size: 14px; font-weight: 700; color: var(--accent); margin-bottom: 0.5rem; }
+  .affiliate-box p { font-size: 12px; color: var(--text2); margin-bottom: 1rem; }
+  .affiliate-btn { display: inline-flex; align-items: center; gap: 6px; background: var(--accent2); color: white; font-size: 13px; font-weight: 700; padding: 8px 20px; border-radius: 2px; text-decoration: none; }
+  .affiliate-note { font-size: 11px; color: var(--text3); margin-top: 8px; font-family: 'DM Mono', monospace; }
+  .nav-articles { display: flex; justify-content: space-between; margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--border); }
+  .nav-article-link { font-size: 13px; color: var(--accent); text-decoration: none; font-weight: 700; }
+  footer { background: var(--accent); padding: 2rem; text-align: center; font-family: 'DM Mono', monospace; font-size: 11px; color: rgba(245,240,232,0.5); }
+  footer a { color: rgba(245,240,232,0.7); text-decoration: none; }
+</style>
+</head>
+<body>
+<nav>
+  <a href="index.html" class="nav-logo">金融マンがエンジニアになった話</a>
+  <a href="index.html" class="nav-back">← 記事一覧</a>
+</nav>
+<div class="article-wrap">
+  <div class="article-meta">
+    <span class="article-tag">ノウハウ</span>
+    <span class="article-date">2025.04.26</span>
+  </div>
+  <h1 class="article-title">Pythonを3ヶ月独学してエンジニア転職した方法【ロードマップ公開】</h1>
+  <p class="article-lead">仕事しながら3ヶ月でPythonを独学し、エンジニア転職を成功させました。学習の順番・使った教材・つまずいたポイントを全部公開します。</p>
+  <div class="article-body">
+
+    <h2>3ヶ月の学習ロードマップ</h2>
+
+    <div class="month-box">
+      <div class="month-label">MONTH 01</div>
+      <div class="month-title">Pythonの基礎文法を固める</div>
+      <div class="month-content">
+        変数・データ型・条件分岐・ループ・関数の5つを徹底的に学びました。<br><br>
+        使った教材：「Python 1年生」（翔泳社）・Progate（無料プラン）<br><br>
+        毎日1〜2時間、仕事終わりに継続。最初の2週間は何を書いているか意味がわからず挫折しかけましたが、ループが理解できた瞬間から急に楽しくなりました。
+      </div>
+    </div>
+
+    <div class="month-box">
+      <div class="month-label">MONTH 02</div>
+      <div class="month-title">ファイル操作・ライブラリを学んで小さなツールを作る</div>
+      <div class="month-content">
+        os・shutil・pandasを学んで実際に動くものを作り始めました。<br><br>
+        作ったもの：ファイル自動整理スクリプト・CSV集計ツール<br><br>
+        「動いた！」という感動が学習の継続につながりました。金融時代にExcelでやっていた集計をPythonで自動化できたときは特に嬉しかったです。
+      </div>
+    </div>
+
+    <div class="month-box">
+      <div class="month-label">MONTH 03</div>
+      <div class="month-title">GitHubに公開・転職活動開始</div>
+      <div class="month-content">
+        作ったツールをGitHubに公開し、転職エージェントに登録しました。<br><br>
+        GitHubのポートフォリオを見せることで「独学でここまでできる」という証明になりました。面接では必ずGitHubのURLを共有しました。
+      </div>
+    </div>
+
+    <h2>独学で挫折しないための3つのコツ</h2>
+
+    <h3>①「写経」より「改造」する</h3>
+    <p>
+      教材のコードをそのまま打つより、自分でアレンジして動かす方が記憶に残ります。
+      「ファイル整理スクリプトを作る」など、目的を持って学ぶと続きます。
+    </p>
+
+    <h3>②毎日30分でも続ける</h3>
+    <p>
+      週末に3時間まとめてやるより、毎日30分続ける方が身につきます。
+      通勤時間・昼休み・寝る前など、スキマ時間を活用しました。
+    </p>
+
+    <h3>③エラーを怖がらない</h3>
+    <p>
+      エラーはバグではなく「ヒント」です。エラーメッセージをそのままGoogleに貼り付けると、ほぼ必ず解決策が見つかります。
+    </p>
+
+    <div class="highlight">
+      <p>Pythonは「作りたいものがある人」が一番伸びます。金融出身であれば「Excel作業をPythonで自動化する」という明確な目標があるので、独学は続けやすいはずです。</p>
+    </div>
+
+    <div class="affiliate-box">
+      <h4>独学に限界を感じたらスクールも選択肢に</h4>
+      <p>独学が合わない方や、より体系的に学びたい方にはプログラミングスクールという選択肢もあります。転職保証付きのコースもあるので、エージェントに相談してみましょう。</p>
+      <a href="#" class="affiliate-btn">スクールを含めた選択肢を相談する →</a>
+      <p class="affiliate-note">※ アフィリエイトリンクです</p>
+    </div>
+  </div>
+  <div class="nav-articles">
+    <a href="article8.html" class="nav-article-link">← 前の記事：1日のスケジュール</a>
+    <a href="article10.html" class="nav-article-link">次の記事：エンジニア転職で後悔したこと →</a>
+  </div>
+</div>
+<footer><p>© 2025 金融マンがエンジニアになった話 · <a href="index.html">トップへ</a></p></footer>
+</body>
+</html>

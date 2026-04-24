@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SESエンジニアの1日のスケジュール【リアルな働き方を公開】| 金融マンがエンジニアになった話</title>
+<meta name="description" content="SESエンジニアとして働く1日のスケジュールをリアルに公開。金融時代との違い・働きやすさの変化も正直に書きます。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700;900&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root { --bg: #F5F0E8; --card: #FDFAF4; --accent: #1A3A2A; --accent2: #C4572A; --accent3: #8B6914; --text: #1C1A16; --text2: #5C5648; --text3: #9C9080; --border: rgba(28,26,22,0.12); }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--bg); color: var(--text); font-family: 'Noto Serif JP', serif; line-height: 1.9; }
+  nav { position: sticky; top: 0; z-index: 100; background: rgba(245,240,232,0.92); backdrop-filter: blur(8px); border-bottom: 1px solid var(--border); padding: 0 2rem; display: flex; align-items: center; justify-content: space-between; height: 52px; }
+  .nav-logo { font-size: 13px; font-weight: 700; color: var(--accent); text-decoration: none; }
+  .nav-back { font-family: 'DM Mono', monospace; font-size: 12px; color: var(--text2); text-decoration: none; }
+  .nav-back:hover { color: var(--accent); }
+  .article-wrap { max-width: 720px; margin: 0 auto; padding: 4rem 2rem 6rem; }
+  .article-meta { display: flex; align-items: center; gap: 12px; margin-bottom: 1.5rem; }
+  .article-tag { font-family: 'DM Mono', monospace; font-size: 10px; padding: 2px 8px; border-radius: 2px; background: rgba(196,87,42,0.1); color: var(--accent2); }
+  .article-date { font-family: 'DM Mono', monospace; font-size: 11px; color: var(--text3); }
+  .article-title { font-size: clamp(1.6rem, 4vw, 2.4rem); font-weight: 900; color: var(--accent); line-height: 1.3; margin-bottom: 1rem; letter-spacing: -0.02em; }
+  .article-lead { font-size: 1rem; color: var(--text2); border-left: 3px solid var(--accent2); padding-left: 1.2rem; margin-bottom: 3rem; line-height: 2; }
+  .article-body h2 { font-size: 1.3rem; font-weight: 700; color: var(--accent); margin: 2.5rem 0 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border); }
+  .article-body h3 { font-size: 1.1rem; font-weight: 700; color: var(--text); margin: 2rem 0 0.8rem; padding-left: 0.8rem; border-left: 3px solid var(--accent3); }
+  .article-body p { font-size: 14px; color: var(--text2); margin-bottom: 1.2rem; line-height: 2; }
+  .timeline-item { display: flex; gap: 1.2rem; padding: 1rem 0; border-bottom: 1px solid rgba(28,26,22,0.06); align-items: flex-start; }
+  .timeline-item:last-child { border-bottom: none; }
+  .time { font-family: 'DM Mono', monospace; font-size: 13px; color: var(--accent2); min-width: 80px; flex-shrink: 0; padding-top: 2px; }
+  .timeline-content h4 { font-size: 14px; font-weight: 700; color: var(--accent); margin-bottom: 4px; }
+  .timeline-content p { font-size: 13px; color: var(--text2); margin-bottom: 0; line-height: 1.8; }
+  .highlight { background: rgba(196,87,42,0.08); border-radius: 4px; padding: 1.2rem 1.5rem; margin: 1.5rem 0; border-left: 3px solid var(--accent2); }
+  .highlight p { margin-bottom: 0; font-size: 14px; color: var(--text); }
+  .compare-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 1.2rem 0; }
+  .compare-box { background: var(--card); border: 1px solid var(--border); border-radius: 4px; padding: 1rem; }
+  .compare-box h4 { font-size: 12px; font-weight: 700; color: var(--text3); font-family: 'DM Mono', monospace; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.05em; }
+  .compare-box p { font-size: 12px; color: var(--text2); margin-bottom: 0; line-height: 1.7; }
+  .affiliate-box { background: var(--card); border: 1px solid var(--border); border-radius: 4px; padding: 1.5rem; margin: 2rem 0; }
+  .affiliate-box h4 { font-size: 14px; font-weight: 700; color: var(--accent); margin-bottom: 0.5rem; }
+  .affiliate-box p { font-size: 12px; color: var(--text2); margin-bottom: 1rem; }
+  .affiliate-btn { display: inline-flex; align-items: center; gap: 6px; background: var(--accent2); color: white; font-size: 13px; font-weight: 700; padding: 8px 20px; border-radius: 2px; text-decoration: none; }
+  .affiliate-note { font-size: 11px; color: var(--text3); margin-top: 8px; font-family: 'DM Mono', monospace; }
+  .nav-articles { display: flex; justify-content: space-between; margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--border); }
+  .nav-article-link { font-size: 13px; color: var(--accent); text-decoration: none; font-weight: 700; }
+  footer { background: var(--accent); padding: 2rem; text-align: center; font-family: 'DM Mono', monospace; font-size: 11px; color: rgba(245,240,232,0.5); }
+  footer a { color: rgba(245,240,232,0.7); text-decoration: none; }
+  @media (max-width: 600px) { .compare-grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<nav>
+  <a href="index.html" class="nav-logo">金融マンがエンジニアになった話</a>
+  <a href="index.html" class="nav-back">← 記事一覧</a>
+</nav>
+<div class="article-wrap">
+  <div class="article-meta">
+    <span class="article-tag">体験談</span>
+    <span class="article-date">2025.04.26</span>
+  </div>
+  <h1 class="article-title">SESエンジニアの1日のスケジュール【リアルな働き方を公開】</h1>
+  <p class="article-lead">エンジニアになったら毎日どんな生活を送るのか気になる方も多いと思います。SESエンジニアとして働く実際の1日を公開します。</p>
+  <div class="article-body">
+
+    <h2>平日の1日のスケジュール</h2>
+
+    <div class="timeline-item">
+      <span class="time">07:30</span>
+      <div class="timeline-content">
+        <h4>起床・朝の学習（30分）</h4>
+        <p>技術記事を読んだり、統計学やPythonの勉強をします。朝の30分は集中力が高いので学習に最適です。</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <span class="time">09:00</span>
+      <div class="timeline-content">
+        <h4>業務開始・メール・タスク確認</h4>
+        <p>リモートワークの場合はSlackやTeamsでチームに挨拶。その日のタスクを確認して優先順位をつけます。</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <span class="time">09:30</span>
+      <div class="timeline-content">
+        <h4>朝会（デイリースクラム）</h4>
+        <p>15〜30分程度。昨日やったこと・今日やること・困っていることを共有します。</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <span class="time">10:00</span>
+      <div class="timeline-content">
+        <h4>メインの開発作業</h4>
+        <p>午前中が一番集中できる時間帯。コーディング・テスト・レビュー対応などを行います。</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <span class="time">12:00</span>
+      <div class="timeline-content">
+        <h4>昼休み（1時間）</h4>
+        <p>金融時代より昼休みが自由です。昼寝したり、技術記事を読んだりしています。</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <span class="time">13:00</span>
+      <div class="timeline-content">
+        <h4>午後の開発・会議</h4>
+        <p>設計レビュー・仕様確認・コードレビューなど。午後は会議が入ることが多いです。</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <span class="time">17:00</span>
+      <div class="timeline-content">
+        <h4>作業まとめ・退勤</h4>
+        <p>その日の作業内容をログに残して退勤。残業は案件によりますが、今の現場はほぼありません。</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <span class="time">19:00</span>
+      <div class="timeline-content">
+        <h4>夜の学習・副業（1〜2時間）</h4>
+        <p>Pythonツール開発・統計学・このサイトの記事執筆など。副業の時間として使っています。</p>
+      </div>
+    </div>
+
+    <h2>金融時代との比較</h2>
+
+    <div class="compare-grid">
+      <div class="compare-box">
+        <h4>金融時代</h4>
+        <p>残業が多く、定時に帰れない日も多かった。精神的なプレッシャーが強く、夜の自分の時間が取れなかった。</p>
+      </div>
+      <div class="compare-box">
+        <h4>エンジニア現在</h4>
+        <p>残業がほぼなく、定時退勤が当たり前。夜に学習・副業ができる時間が確保できている。</p>
+      </div>
+    </div>
+
+    <div class="highlight">
+      <p>働き方が変わったことで、「自分の時間」が増えました。その時間で学習・副業・ツール開発をしています。お金より時間の自由度が上がったことが、転職して一番よかったことかもしれません。</p>
+    </div>
+
+    <div class="affiliate-box">
+      <h4>働き方を重視した転職ならエージェントに相談を</h4>
+      <p>残業・リモートワーク・フレックスなど、働き方の条件はエージェントに事前に伝えることで希望に合った求人を紹介してもらえます。</p>
+      <a href="#" class="affiliate-btn">働き方で求人を探す →</a>
+      <p class="affiliate-note">※ アフィリエイトリンクです</p>
+    </div>
+  </div>
+  <div class="nav-articles">
+    <a href="article7.html" class="nav-article-link">← 前の記事：面接で聞かれること</a>
+    <a href="article9.html" class="nav-article-link">次の記事：Pythonを3ヶ月独学した方法 →</a>
+  </div>
+</div>
+<footer><p>© 2025 金融マンがエンジニアになった話 · <a href="index.html">トップへ</a></p></footer>
+</body>
+</html>
