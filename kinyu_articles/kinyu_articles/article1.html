@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>金融機関からエンジニアに転職した正直な話 | 金融マンがエンジニアになった話</title>
+<meta name="description" content="金融機関から未経験でITエンジニアに転職した実体験を正直に書きます。なぜ転職したのか・どう準備したか・転職活動の流れを全部公開。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700;900&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #F5F0E8; --bg2: #EDE8DC; --card: #FDFAF4;
+    --accent: #1A3A2A; --accent2: #C4572A; --accent3: #8B6914;
+    --text: #1C1A16; --text2: #5C5648; --text3: #9C9080;
+    --border: rgba(28,26,22,0.12); --border2: rgba(28,26,22,0.06);
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--bg); color: var(--text); font-family: 'Noto Serif JP', serif; line-height: 1.9; }
+  nav {
+    position: sticky; top: 0; z-index: 100;
+    background: rgba(245,240,232,0.92); backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--border);
+    padding: 0 2rem; display: flex; align-items: center; justify-content: space-between; height: 52px;
+  }
+  .nav-logo { font-size: 13px; font-weight: 700; color: var(--accent); text-decoration: none; }
+  .nav-back { font-family: 'DM Mono', monospace; font-size: 12px; color: var(--text2); text-decoration: none; }
+  .nav-back:hover { color: var(--accent); }
+  .article-wrap { max-width: 720px; margin: 0 auto; padding: 4rem 2rem 6rem; }
+  .article-meta { display: flex; align-items: center; gap: 12px; margin-bottom: 1.5rem; }
+  .article-tag { font-family: 'DM Mono', monospace; font-size: 10px; padding: 2px 8px; border-radius: 2px; background: rgba(196,87,42,0.1); color: var(--accent2); }
+  .article-date { font-family: 'DM Mono', monospace; font-size: 11px; color: var(--text3); }
+  .article-title { font-size: clamp(1.6rem, 4vw, 2.4rem); font-weight: 900; color: var(--accent); line-height: 1.3; margin-bottom: 1rem; letter-spacing: -0.02em; }
+  .article-lead { font-size: 1rem; color: var(--text2); border-left: 3px solid var(--accent2); padding-left: 1.2rem; margin-bottom: 3rem; line-height: 2; }
+  .article-body h2 { font-size: 1.3rem; font-weight: 700; color: var(--accent); margin: 2.5rem 0 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border); }
+  .article-body h3 { font-size: 1.1rem; font-weight: 700; color: var(--text); margin: 2rem 0 0.8rem; padding-left: 0.8rem; border-left: 3px solid var(--accent3); }
+  .article-body p { font-size: 14px; color: var(--text2); margin-bottom: 1.2rem; line-height: 2; }
+  .article-body ul { margin: 1rem 0 1.2rem 1.5rem; }
+  .article-body ul li { font-size: 14px; color: var(--text2); margin-bottom: 0.5rem; line-height: 1.8; }
+  .highlight { background: rgba(196,87,42,0.08); border-radius: 4px; padding: 1.2rem 1.5rem; margin: 1.5rem 0; border-left: 3px solid var(--accent2); }
+  .highlight p { margin-bottom: 0; font-size: 14px; color: var(--text); }
+  .affiliate-box { background: var(--card); border: 1px solid var(--border); border-radius: 4px; padding: 1.5rem; margin: 2rem 0; }
+  .affiliate-box h4 { font-size: 14px; font-weight: 700; color: var(--accent); margin-bottom: 0.5rem; }
+  .affiliate-box p { font-size: 12px; color: var(--text2); margin-bottom: 1rem; }
+  .affiliate-btn { display: inline-flex; align-items: center; gap: 6px; background: var(--accent2); color: white; font-size: 13px; font-weight: 700; padding: 8px 20px; border-radius: 2px; text-decoration: none; transition: opacity 0.2s; }
+  .affiliate-btn:hover { opacity: 0.85; }
+  .affiliate-note { font-size: 11px; color: var(--text3); margin-top: 8px; font-family: 'DM Mono', monospace; }
+  .nav-articles { display: flex; justify-content: space-between; margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--border); }
+  .nav-article-link { font-size: 13px; color: var(--accent); text-decoration: none; font-weight: 700; }
+  .nav-article-link:hover { color: var(--accent2); }
+  footer { background: var(--accent); padding: 2rem; text-align: center; font-family: 'DM Mono', monospace; font-size: 11px; color: rgba(245,240,232,0.5); }
+  footer a { color: rgba(245,240,232,0.7); text-decoration: none; }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="../index.html" class="nav-logo">金融マンがエンジニアになった話</a>
+  <a href="../index.html" class="nav-back">← 記事一覧</a>
+</nav>
+
+<div class="article-wrap">
+  <div class="article-meta">
+    <span class="article-tag">体験談</span>
+    <span class="article-date">2025.04.25</span>
+  </div>
+
+  <h1 class="article-title">金融機関からエンジニアに転職した正直な話</h1>
+
+  <p class="article-lead">
+    金融機関に数年勤めた後、20代後半で未経験からITエンジニアに転職しました。
+    なぜ転職しようと思ったのか、どう準備したのか、転職活動の流れを包み隠さず書きます。
+  </p>
+
+  <div class="article-body">
+
+    <h2>なぜ金融機関を辞めようと思ったのか</h2>
+    <p>
+      金融機関での仕事は安定していました。給与も悪くなく、社会的な信用もある。
+      それでも辞めようと思った理由は「このまま同じことをずっと続けるのか」という漠然とした不安でした。
+    </p>
+    <p>
+      毎日同じ業務をこなしながら、「自分で何かを作れる人になりたい」という気持ちが強くなっていきました。
+      そのときに目に入ったのがプログラミングです。
+    </p>
+
+    <div class="highlight">
+      <p>「安定しているけど、このままでいいのか」という感覚は、転職を考える人の多くが持つ感情だと思います。その感覚は正直、正しいと思います。</p>
+    </div>
+
+    <h2>転職を決めるまでの葛藤</h2>
+    <p>
+      金融からエンジニアへの転職は、周りからは「なぜ安定した仕事を捨てるのか」と言われました。
+      確かに、未経験からのエンジニア転職は簡単ではありません。
+    </p>
+    <p>
+      悩んだポイントは主に3つです。
+    </p>
+    <ul>
+      <li>年収が下がるかもしれないという不安</li>
+      <li>未経験で採用してもらえるのかという不安</li>
+      <li>エンジニアとして続けていけるのかという不安</li>
+    </ul>
+    <p>
+      結論から言うと、全部「やってみないとわからない」でした。
+      悩んでいる時間より、動いてみた方が早いというのが今の正直な感想です。
+    </p>
+
+    <h2>転職前にやったこと</h2>
+    <h3>プログラミングの独学（3ヶ月）</h3>
+    <p>
+      まずPythonから始めました。理由は「文法がシンプルで初心者に優しい」と聞いたからです。
+      毎日1〜2時間、仕事終わりに勉強を続けました。
+      最初は変数とループだけでも難しかったですが、3ヶ月で簡単なスクリプトが書けるようになりました。
+    </p>
+    <p>
+      金融機関での経験からExcelやデータ分析には馴染みがあったので、
+      pandasを使ったデータ処理は比較的早く習得できました。
+    </p>
+
+    <h3>転職エージェントへの登録</h3>
+    <p>
+      独学を始めて2ヶ月目から転職エージェントに登録しました。
+      実際に使ったのはレバテックキャリアとマイナビIT AGENTの2社です。
+      どちらのキャリアアドバイザーも「金融出身は論理的思考力があって評価されやすい」と言ってくれました。
+    </p>
+
+    <div class="affiliate-box">
+      <h4>実際に使った転職エージェント：レバテックキャリア</h4>
+      <p>IT・Web系エンジニア転職に特化。未経験・第二新卒の求人も豊富で、担当者のサポートが丁寧でした。金融出身であることを強みとして打ち出す方法を一緒に考えてくれました。</p>
+      <a href="#" class="affiliate-btn">無料で相談してみる →</a>
+      <p class="affiliate-note">※ アフィリエイトリンクです</p>
+    </div>
+
+    <h2>転職活動の流れ</h2>
+    <p>
+      転職活動を始めてから内定をもらうまでの期間は約2ヶ月でした。
+      応募した企業数は15社、面接に進んだのは6社、内定をもらったのは2社です。
+    </p>
+    <p>
+      未経験であることは正直に伝えました。隠しても意味がないですし、
+      むしろ「なぜエンジニアになりたいのか」「何を勉強してきたのか」を具体的に話すことで
+      評価してもらえました。
+    </p>
+
+    <h3>面接でよく聞かれたこと</h3>
+    <ul>
+      <li>なぜ金融からエンジニアに転職したいのか</li>
+      <li>どんなプログラミングの勉強をしてきたか</li>
+      <li>5年後にどんなエンジニアになりたいか</li>
+      <li>金融の経験をエンジニアとしてどう活かすか</li>
+    </ul>
+
+    <h2>転職してよかったと思うこと</h2>
+    <p>
+      転職して一番よかったのは「自分で作れる感覚」を持てるようになったことです。
+      Pythonでツールを作って、それが実際に動くときの感覚は金融時代には得られなかったものです。
+    </p>
+    <p>
+      SESという働き方については正直なところを次の記事で書きます。
+      良い面も悪い面もありますが、入口としては悪くない選択だったと思っています。
+    </p>
+
+    <div class="highlight">
+      <p>金融からエンジニアへの転職を考えている方へ。「未経験だから無理」は思い込みです。金融での論理的思考力・数字への強さ・コミュニケーション力は、エンジニアの世界でも評価されます。</p>
+    </div>
+
+  </div>
+
+  <div class="nav-articles">
+    <span></span>
+    <a href="article2.html" class="nav-article-link">次の記事：未経験でSESに入社して1年半経った感想 →</a>
+  </div>
+</div>
+
+<footer>
+  <p>© 2025 金融マンがエンジニアになった話 · <a href="../index.html">トップへ</a></p>
+</footer>
+
+</body>
+</html>

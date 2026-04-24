@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>金融→エンジニア転職で年収はどう変わったか【実数公開】| 金融マンがエンジニアになった話</title>
+<meta name="description" content="金融機関からエンジニアに転職して年収はどう変わったか正直に公開。転職前後の年収・将来の年収見通しを実体験から語ります。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700;900&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root { --bg: #F5F0E8; --card: #FDFAF4; --accent: #1A3A2A; --accent2: #C4572A; --accent3: #8B6914; --text: #1C1A16; --text2: #5C5648; --text3: #9C9080; --border: rgba(28,26,22,0.12); }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--bg); color: var(--text); font-family: 'Noto Serif JP', serif; line-height: 1.9; }
+  nav { position: sticky; top: 0; z-index: 100; background: rgba(245,240,232,0.92); backdrop-filter: blur(8px); border-bottom: 1px solid var(--border); padding: 0 2rem; display: flex; align-items: center; justify-content: space-between; height: 52px; }
+  .nav-logo { font-size: 13px; font-weight: 700; color: var(--accent); text-decoration: none; }
+  .nav-back { font-family: 'DM Mono', monospace; font-size: 12px; color: var(--text2); text-decoration: none; }
+  .nav-back:hover { color: var(--accent); }
+  .article-wrap { max-width: 720px; margin: 0 auto; padding: 4rem 2rem 6rem; }
+  .article-meta { display: flex; align-items: center; gap: 12px; margin-bottom: 1.5rem; }
+  .article-tag { font-family: 'DM Mono', monospace; font-size: 10px; padding: 2px 8px; border-radius: 2px; background: rgba(28,26,22,0.08); color: var(--text2); }
+  .article-date { font-family: 'DM Mono', monospace; font-size: 11px; color: var(--text3); }
+  .article-title { font-size: clamp(1.6rem, 4vw, 2.4rem); font-weight: 900; color: var(--accent); line-height: 1.3; margin-bottom: 1rem; letter-spacing: -0.02em; }
+  .article-lead { font-size: 1rem; color: var(--text2); border-left: 3px solid var(--accent2); padding-left: 1.2rem; margin-bottom: 3rem; line-height: 2; }
+  .article-body h2 { font-size: 1.3rem; font-weight: 700; color: var(--accent); margin: 2.5rem 0 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border); }
+  .article-body h3 { font-size: 1.1rem; font-weight: 700; color: var(--text); margin: 2rem 0 0.8rem; padding-left: 0.8rem; border-left: 3px solid var(--accent3); }
+  .article-body p { font-size: 14px; color: var(--text2); margin-bottom: 1.2rem; line-height: 2; }
+  .article-body ul { margin: 1rem 0 1.2rem 1.5rem; }
+  .article-body ul li { font-size: 14px; color: var(--text2); margin-bottom: 0.5rem; line-height: 1.8; }
+  .salary-box { background: var(--card); border: 1px solid var(--border); border-radius: 4px; padding: 1.5rem; margin: 1.5rem 0; }
+  .salary-row { display: flex; justify-content: space-between; align-items: center; padding: 10px 0; border-bottom: 1px solid rgba(28,26,22,0.06); }
+  .salary-row:last-child { border-bottom: none; }
+  .salary-label { font-size: 13px; color: var(--text2); }
+  .salary-val { font-family: 'DM Mono', monospace; font-size: 18px; font-weight: 500; color: var(--accent); }
+  .salary-val.down { color: var(--accent2); }
+  .salary-val.up { color: var(--accent3); }
+  .highlight { background: rgba(196,87,42,0.08); border-radius: 4px; padding: 1.2rem 1.5rem; margin: 1.5rem 0; border-left: 3px solid var(--accent2); }
+  .highlight p { margin-bottom: 0; font-size: 14px; color: var(--text); }
+  .affiliate-box { background: var(--card); border: 1px solid var(--border); border-radius: 4px; padding: 1.5rem; margin: 2rem 0; }
+  .affiliate-box h4 { font-size: 14px; font-weight: 700; color: var(--accent); margin-bottom: 0.5rem; }
+  .affiliate-box p { font-size: 12px; color: var(--text2); margin-bottom: 1rem; }
+  .affiliate-btn { display: inline-flex; align-items: center; gap: 6px; background: var(--accent2); color: white; font-size: 13px; font-weight: 700; padding: 8px 20px; border-radius: 2px; text-decoration: none; }
+  .affiliate-btn:hover { opacity: 0.85; }
+  .affiliate-note { font-size: 11px; color: var(--text3); margin-top: 8px; font-family: 'DM Mono', monospace; }
+  .nav-articles { display: flex; justify-content: space-between; margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--border); }
+  .nav-article-link { font-size: 13px; color: var(--accent); text-decoration: none; font-weight: 700; }
+  .nav-article-link:hover { color: var(--accent2); }
+  footer { background: var(--accent); padding: 2rem; text-align: center; font-family: 'DM Mono', monospace; font-size: 11px; color: rgba(245,240,232,0.5); }
+  footer a { color: rgba(245,240,232,0.7); text-decoration: none; }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="../index.html" class="nav-logo">金融マンがエンジニアになった話</a>
+  <a href="../index.html" class="nav-back">← 記事一覧</a>
+</nav>
+
+<div class="article-wrap">
+  <div class="article-meta">
+    <span class="article-tag">データ</span>
+    <span class="article-date">2025.04.25</span>
+  </div>
+
+  <h1 class="article-title">金融→エンジニア転職で年収はどう変わったか【実数公開】</h1>
+
+  <p class="article-lead">
+    転職を考えるとき、年収がどう変わるかは最も気になるポイントだと思います。
+    金融機関からエンジニアに転職した前後の年収を正直に公開します。
+  </p>
+
+  <div class="article-body">
+
+    <h2>転職前後の年収比較</h2>
+
+    <div class="salary-box">
+      <div class="salary-row">
+        <span class="salary-label">金融機関時代の年収</span>
+        <span class="salary-val">約400万円台</span>
+      </div>
+      <div class="salary-row">
+        <span class="salary-label">エンジニア転職直後（1年目）</span>
+        <span class="salary-val down">約350万円台（↓）</span>
+      </div>
+      <div class="salary-row">
+        <span class="salary-label">現在（1年半後）</span>
+        <span class="salary-val up">約380万円台（↑回復傾向）</span>
+      </div>
+    </div>
+
+    <p>
+      正直に言うと、転職直後は年収が下がりました。
+      未経験からのスタートなので、これは覚悟していたことです。
+      ただし1年半で回復傾向にあり、スキルが上がれば年収も上がる実感があります。
+    </p>
+
+    <div class="highlight">
+      <p>未経験エンジニアの転職直後に年収が下がるのはよくあることです。重要なのは「1〜3年後にどうなるか」という中長期の視点です。</p>
+    </div>
+
+    <h2>エンジニアの年収は伸びしろが大きい</h2>
+    <p>
+      金融機関の年収は安定している一方、大きく上がることも少ないです。
+      一方エンジニアは、スキル次第で年収が大きく変わります。
+    </p>
+
+    <h3>年収が上がる主な方法</h3>
+    <ul>
+      <li>扱える技術スタックを増やす（Python・SQL・クラウドなど）</li>
+      <li>SESから自社開発企業に転職する</li>
+      <li>フリーランスエンジニアとして独立する</li>
+      <li>副業・ツール販売で収入を増やす</li>
+    </ul>
+
+    <h3>金融出身エンジニアの強み</h3>
+    <p>
+      金融出身であることは、実はエンジニアとして強みになります。
+      特にFinTech・金融システム系の案件では、金融の業務知識があるエンジニアは
+      重宝されます。年収が高い案件に入れる可能性が高まります。
+    </p>
+
+    <h2>年収より大切なこと</h2>
+    <p>
+      転職して1年半で感じているのは、年収の数字より「自分で作れる感覚」の方が
+      大きな価値だということです。
+    </p>
+    <p>
+      Pythonでツールを作り、それを販売して収益を得る。
+      統計学を学んで、データから意味を読み取る。
+      これらは金融時代には得られなかった経験です。
+    </p>
+    <p>
+      副業・ツール販売を含めると、収入の柱が複数できつつあります。
+      「年収」という1つの数字だけでなく、収入の多様化という視点でエンジニア転職を考えるのが今の正直な気持ちです。
+    </p>
+
+    <div class="affiliate-box">
+      <h4>年収アップを目指すならレバテックキャリア</h4>
+      <p>IT・Web系エンジニア向けの転職エージェント。現在の年収から年収アップする方法を一緒に考えてくれます。金融出身であることを強みとして活かせる求人も紹介してもらえました。</p>
+      <a href="#" class="affiliate-btn">無料相談する →</a>
+      <p class="affiliate-note">※ アフィリエイトリンクです</p>
+    </div>
+
+  </div>
+
+  <div class="nav-articles">
+    <a href="article4.html" class="nav-article-link">← 前の記事：転職エージェントおすすめ比較</a>
+    <span></span>
+  </div>
+</div>
+
+<footer>
+  <p>© 2025 金融マンがエンジニアになった話 · <a href="../index.html">トップへ</a></p>
+</footer>
+
+</body>
+</html>
