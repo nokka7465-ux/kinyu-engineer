@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QPKSYX94QP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag("js", new Date());
+  gtag("config", "G-QPKSYX94QP");
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SES vs SIer vs 自社開発 徹底比較【未経験はどれを選ぶべきか】 | 金融マンがエンジニアになった話</title>
+<meta name="description" content="エンジニア転職で必ず迷う「SES・SIer・自社開発」の3業態を、給与・スキル・働き方・キャリアの4軸で徹底比較。未経験はどれを選ぶべきか実体験から解説します。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700;900&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root { --bg: #F5F0E8; --bg2: #EDE8DC; --card: #FDFAF4; --accent: #1A3A2A; --accent2: #C4572A; --accent3: #8B6914; --text: #1C1A16; --text2: #5C5648; --text3: #9C9080; --border: rgba(28,26,22,0.12); --border2: rgba(28,26,22,0.06); }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--bg); color: var(--text); font-family: 'Noto Serif JP', serif; line-height: 1.9; }
+  nav { position: sticky; top: 0; z-index: 100; background: rgba(245,240,232,0.92); backdrop-filter: blur(8px); border-bottom: 1px solid var(--border); padding: 0 2rem; display: flex; align-items: center; justify-content: space-between; height: 52px; }
+  .nav-logo { font-size: 13px; font-weight: 700; color: var(--accent); text-decoration: none; }
+  .nav-back { font-family: 'DM Mono', monospace; font-size: 12px; color: var(--text2); text-decoration: none; }
+  .nav-back:hover { color: var(--accent); }
+  .article-wrap { max-width: 720px; margin: 0 auto; padding: 4rem 2rem 6rem; }
+  .article-meta { display: flex; align-items: center; gap: 12px; margin-bottom: 1.5rem; }
+  .article-tag { font-family: 'DM Mono', monospace; font-size: 10px; padding: 2px 8px; border-radius: 2px; background: rgba(139,105,20,0.1); color: var(--accent3); }
+  .article-date { font-family: 'DM Mono', monospace; font-size: 11px; color: var(--text3); }
+  .article-title { font-size: clamp(1.6rem, 4vw, 2.4rem); font-weight: 900; color: var(--accent); line-height: 1.3; margin-bottom: 1rem; letter-spacing: -0.02em; }
+  .article-lead { font-size: 1rem; color: var(--text2); border-left: 3px solid var(--accent2); padding-left: 1.2rem; margin-bottom: 3rem; line-height: 2; }
+  .article-body h2 { font-size: 1.3rem; font-weight: 700; color: var(--accent); margin: 2.5rem 0 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border); }
+  .article-body h3 { font-size: 1.1rem; font-weight: 700; color: var(--text); margin: 2rem 0 0.8rem; padding-left: 0.8rem; border-left: 3px solid var(--accent3); }
+  .article-body p { font-size: 14px; color: var(--text2); margin-bottom: 1.2rem; line-height: 2; }
+  .article-body ul { margin: 1rem 0 1.2rem 1.5rem; }
+  .article-body ul li { font-size: 14px; color: var(--text2); margin-bottom: 0.5rem; line-height: 1.8; }
+  .compare-table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 13px; }
+  .compare-table th, .compare-table td { border: 1px solid var(--border); padding: 10px 12px; text-align: left; vertical-align: top; }
+  .compare-table th { background: var(--bg2); color: var(--accent); font-weight: 700; }
+  .compare-table td { color: var(--text2); }
+  .highlight { background: rgba(196,87,42,0.08); border-radius: 4px; padding: 1.2rem 1.5rem; margin: 1.5rem 0; border-left: 3px solid var(--accent2); }
+  .highlight p { margin-bottom: 0; font-size: 14px; color: var(--text); }
+  .affiliate-box { background: var(--card); border: 1px solid var(--border); border-radius: 4px; padding: 1.5rem; margin: 2rem 0; }
+  .affiliate-box h4 { font-size: 14px; font-weight: 700; color: var(--accent); margin-bottom: 0.5rem; }
+  .affiliate-box p { font-size: 12px; color: var(--text2); margin-bottom: 1rem; }
+  .affiliate-btn { display: inline-flex; align-items: center; gap: 6px; background: var(--accent2); color: white; font-size: 13px; font-weight: 700; padding: 8px 20px; border-radius: 2px; text-decoration: none; transition: opacity 0.2s; }
+  .affiliate-btn:hover { opacity: 0.85; }
+  .affiliate-note { font-size: 11px; color: var(--text3); margin-top: 8px; font-family: 'DM Mono', monospace; }
+  .nav-articles { display: flex; justify-content: space-between; margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--border); }
+  .nav-article-link { font-size: 13px; color: var(--accent); text-decoration: none; font-weight: 700; }
+  .nav-article-link:hover { color: var(--accent2); }
+  footer { background: var(--accent); padding: 2rem; text-align: center; font-family: 'DM Mono', monospace; font-size: 11px; color: rgba(245,240,232,0.5); }
+  footer a { color: rgba(245,240,232,0.7); text-decoration: none; }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">金融マンがエンジニアになった話</a>
+  <a href="index.html" class="nav-back">← 記事一覧</a>
+</nav>
+
+<div class="article-wrap">
+  <div class="article-meta">
+    <span class="article-tag">比較</span>
+    <span class="article-date">2025.05.03</span>
+  </div>
+
+  <h1 class="article-title">SES vs SIer vs 自社開発 徹底比較【未経験はどれを選ぶべきか】</h1>
+
+  <p class="article-lead">
+    エンジニア転職で必ず迷うのがこの3業態の選び方です。
+    自分はSES所属、周囲にはSIer・自社開発の友人がいるので、ヒアリングと体感を踏まえて4軸で比較しました。
+    結論「未経験はSESまたは中堅SIerがリスクが低い」です。
+  </p>
+
+  <div class="article-body">
+
+    <h2>3業態の基本</h2>
+    <h3>SES（System Engineering Service）</h3>
+    <p>クライアント先に常駐し、客先のチームの一員として働く形態。エンジニアを「派遣」する形に近い。</p>
+    <h3>SIer（System Integrator）</h3>
+    <p>大手企業から請け負ったシステム開発を自社で進める形態。基本的に自社のオフィスで働く（プロジェクトによっては常駐もあり）。</p>
+    <h3>自社開発</h3>
+    <p>自社サービス・プロダクトを開発・運用する形態。SaaS・Web系企業の多くがこれに当たる。</p>
+
+    <h2>4軸で比較</h2>
+
+    <table class="compare-table">
+      <thead>
+        <tr><th></th><th>SES</th><th>SIer</th><th>自社開発</th></tr>
+      </thead>
+      <tbody>
+        <tr><th>未経験採用</th><td>◎ 多い</td><td>○ あり</td><td>△ 少ない</td></tr>
+        <tr><th>給与（1年目）</th><td>300〜400万</td><td>350〜450万</td><td>400〜600万</td></tr>
+        <tr><th>給与（5年目）</th><td>400〜550万</td><td>500〜700万</td><td>600〜1000万</td></tr>
+        <tr><th>技術スタック</th><td>現場依存（古いことも）</td><td>Java / .NET 中心</td><td>モダン（React, Go, AWS等）</td></tr>
+        <tr><th>働き方</th><td>客先による</td><td>比較的安定</td><td>柔軟（リモート多）</td></tr>
+        <tr><th>転職市場価値</th><td>現場ガチャ</td><td>業務知識が強み</td><td>技術力で差別化</td></tr>
+      </tbody>
+    </table>
+
+    <h2>未経験者から見た各業態の評価</h2>
+
+    <h3>SESのメリット・デメリット</h3>
+    <ul>
+      <li>◎ 未経験でも入りやすい（採用ハードル低）</li>
+      <li>◎ 短期間で複数の現場を経験できる</li>
+      <li>× 現場ガチャがある（古い技術 or きつい現場）</li>
+      <li>× 給与の上がり方が緩やか</li>
+    </ul>
+
+    <h3>SIerのメリット・デメリット</h3>
+    <ul>
+      <li>◎ 安定した働き方・福利厚生</li>
+      <li>◎ 上流工程の経験が積める</li>
+      <li>× 技術スタックが古いことが多い</li>
+      <li>× 大規模ウォーターフォールに合わない人には辛い</li>
+    </ul>
+
+    <h3>自社開発のメリット・デメリット</h3>
+    <ul>
+      <li>◎ モダンな技術が使える</li>
+      <li>◎ 給与水準が高い</li>
+      <li>× 未経験はほぼ採用されない（最低でも2〜3年経験必須）</li>
+      <li>× 求められるレベルが高くプレッシャーも大きい</li>
+    </ul>
+
+    <h2>結論：未経験はSES or SIerからスタート</h2>
+    <p>
+      自社開発はキャリアのゴールとして魅力的ですが、未経験で直接入るのはハードルが高すぎます。
+      まずSES or SIerで2〜3年の実務経験を積んで、次のステップで自社開発を狙うのが王道ルートです。
+    </p>
+
+    <div class="highlight">
+      <p>「最初から自社開発じゃないと意味がない」と考える人ほど転職活動が長期化します。経験を積む場所として割り切るのが結果的に近道です。</p>
+    </div>
+
+    <h2>各業態の見極めポイント</h2>
+    <ul>
+      <li><strong>SES</strong>：自社の技術研修制度・案件の選択肢の広さを確認</li>
+      <li><strong>SIer</strong>：扱う業界（金融・製造・公共）と上流工程の関与度を確認</li>
+      <li><strong>自社開発</strong>：技術スタック・チーム構成・コードレビュー文化の有無を確認</li>
+    </ul>
+
+    <div class="affiliate-box">
+      <h4>業態選びの相談ができる転職エージェント</h4>
+      <p>「自分はどの業態が向いているか」を聞けるエージェントを使うと、ミスマッチを防げます。複数併用がおすすめ。</p>
+      <a href="#" class="affiliate-btn">無料登録する →</a>
+      <p class="affiliate-note">※ アフィリエイトリンクです。サービスの品質は変わりません。</p>
+    </div>
+
+    <h2>まとめ：業態は「ゴール」ではなく「通過点」</h2>
+    <p>
+      3業態のどれが正解ということはなく、自分のキャリアステージで最適解は変わります。
+      未経験のうちは入りやすいSES or SIerで地力をつけ、その後にキャリアを描き直すのが現実的な戦略です。
+    </p>
+
+  </div>
+
+  <div class="nav-articles">
+    <a href="article16.html" class="nav-article-link">← 前の記事：1年目に買ってよかったもの</a>
+    <a href="article18.html" class="nav-article-link">次の記事：業務外で勉強を続けるコツ →</a>
+  </div>
+</div>
+
+<footer>
+  <p>© 2025 金融マンがエンジニアになった話 · <a href="index.html">トップへ</a></p>
+</footer>
+
+</body>
+</html>

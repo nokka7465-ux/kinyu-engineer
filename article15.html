@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QPKSYX94QP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag("js", new Date());
+  gtag("config", "G-QPKSYX94QP");
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>30代未経験でもエンジニア転職できるか【データで検証】 | 金融マンがエンジニアになった話</title>
+<meta name="description" content="30代未経験からエンジニア転職は本当に可能なのか。年齢別の転職成功率データ・周囲の事例・年代別に必要な準備を、実体験ベースで整理しました。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700;900&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #F5F0E8; --bg2: #EDE8DC; --card: #FDFAF4;
+    --accent: #1A3A2A; --accent2: #C4572A; --accent3: #8B6914;
+    --text: #1C1A16; --text2: #5C5648; --text3: #9C9080;
+    --border: rgba(28,26,22,0.12); --border2: rgba(28,26,22,0.06);
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--bg); color: var(--text); font-family: 'Noto Serif JP', serif; line-height: 1.9; }
+  nav { position: sticky; top: 0; z-index: 100; background: rgba(245,240,232,0.92); backdrop-filter: blur(8px); border-bottom: 1px solid var(--border); padding: 0 2rem; display: flex; align-items: center; justify-content: space-between; height: 52px; }
+  .nav-logo { font-size: 13px; font-weight: 700; color: var(--accent); text-decoration: none; }
+  .nav-back { font-family: 'DM Mono', monospace; font-size: 12px; color: var(--text2); text-decoration: none; }
+  .nav-back:hover { color: var(--accent); }
+  .article-wrap { max-width: 720px; margin: 0 auto; padding: 4rem 2rem 6rem; }
+  .article-meta { display: flex; align-items: center; gap: 12px; margin-bottom: 1.5rem; }
+  .article-tag { font-family: 'DM Mono', monospace; font-size: 10px; padding: 2px 8px; border-radius: 2px; background: rgba(28,26,22,0.08); color: var(--text2); }
+  .article-date { font-family: 'DM Mono', monospace; font-size: 11px; color: var(--text3); }
+  .article-title { font-size: clamp(1.6rem, 4vw, 2.4rem); font-weight: 900; color: var(--accent); line-height: 1.3; margin-bottom: 1rem; letter-spacing: -0.02em; }
+  .article-lead { font-size: 1rem; color: var(--text2); border-left: 3px solid var(--accent2); padding-left: 1.2rem; margin-bottom: 3rem; line-height: 2; }
+  .article-body h2 { font-size: 1.3rem; font-weight: 700; color: var(--accent); margin: 2.5rem 0 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border); }
+  .article-body h3 { font-size: 1.1rem; font-weight: 700; color: var(--text); margin: 2rem 0 0.8rem; padding-left: 0.8rem; border-left: 3px solid var(--accent3); }
+  .article-body p { font-size: 14px; color: var(--text2); margin-bottom: 1.2rem; line-height: 2; }
+  .article-body ul { margin: 1rem 0 1.2rem 1.5rem; }
+  .article-body ul li { font-size: 14px; color: var(--text2); margin-bottom: 0.5rem; line-height: 1.8; }
+  .compare-table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 13px; }
+  .compare-table th, .compare-table td { border: 1px solid var(--border); padding: 10px 12px; text-align: left; vertical-align: top; }
+  .compare-table th { background: var(--bg2); color: var(--accent); font-weight: 700; }
+  .compare-table td { color: var(--text2); }
+  .highlight { background: rgba(196,87,42,0.08); border-radius: 4px; padding: 1.2rem 1.5rem; margin: 1.5rem 0; border-left: 3px solid var(--accent2); }
+  .highlight p { margin-bottom: 0; font-size: 14px; color: var(--text); }
+  .affiliate-box { background: var(--card); border: 1px solid var(--border); border-radius: 4px; padding: 1.5rem; margin: 2rem 0; }
+  .affiliate-box h4 { font-size: 14px; font-weight: 700; color: var(--accent); margin-bottom: 0.5rem; }
+  .affiliate-box p { font-size: 12px; color: var(--text2); margin-bottom: 1rem; }
+  .affiliate-btn { display: inline-flex; align-items: center; gap: 6px; background: var(--accent2); color: white; font-size: 13px; font-weight: 700; padding: 8px 20px; border-radius: 2px; text-decoration: none; transition: opacity 0.2s; }
+  .affiliate-btn:hover { opacity: 0.85; }
+  .affiliate-note { font-size: 11px; color: var(--text3); margin-top: 8px; font-family: 'DM Mono', monospace; }
+  .nav-articles { display: flex; justify-content: space-between; margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--border); }
+  .nav-article-link { font-size: 13px; color: var(--accent); text-decoration: none; font-weight: 700; }
+  .nav-article-link:hover { color: var(--accent2); }
+  footer { background: var(--accent); padding: 2rem; text-align: center; font-family: 'DM Mono', monospace; font-size: 11px; color: rgba(245,240,232,0.5); }
+  footer a { color: rgba(245,240,232,0.7); text-decoration: none; }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">金融マンがエンジニアになった話</a>
+  <a href="index.html" class="nav-back">← 記事一覧</a>
+</nav>
+
+<div class="article-wrap">
+  <div class="article-meta">
+    <span class="article-tag">データ</span>
+    <span class="article-date">2025.05.03</span>
+  </div>
+
+  <h1 class="article-title">30代未経験でもエンジニア転職できるか【データで検証】</h1>
+
+  <p class="article-lead">
+    「30代でも未経験エンジニア転職できますか？」は最も多い質問のひとつです。
+    結論「年齢ごとに難易度は変わるが、35歳までなら現実的に可能」というのが自分と周囲の体感です。
+    年代別の難易度・必要な準備・成功事例を整理しました。
+  </p>
+
+  <div class="article-body">
+
+    <h2>結論：35歳がひとつの目安。それ以降は条件次第</h2>
+    <p>
+      未経験エンジニア求人の多くは「35歳まで」の年齢制限が暗黙的に存在します。
+      36歳以上は「業界経験を持っている」「マネジメント経験がある」など追加の武器が必要になります。
+    </p>
+
+    <h2>年代別の難易度マトリクス</h2>
+
+    <table class="compare-table">
+      <thead>
+        <tr><th>年齢</th><th>難易度</th><th>主な選択肢</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>20代前半</td><td>★☆☆☆☆</td><td>SES / 受託 / 自社開発まで全方位</td></tr>
+        <tr><td>20代後半</td><td>★★☆☆☆</td><td>SES / 受託が中心。自社開発も可能</td></tr>
+        <tr><td>30代前半</td><td>★★★☆☆</td><td>SES / 受託中心。前職経験が活きる業界が有利</td></tr>
+        <tr><td>30代後半</td><td>★★★★☆</td><td>業界知識 + マネジメント経験が必須</td></tr>
+        <tr><td>40代以上</td><td>★★★★★</td><td>PM・コンサル経験 + 強い動機が必要</td></tr>
+      </tbody>
+    </table>
+
+    <h2>30代が直面する3つの壁</h2>
+
+    <h3>① 年齢制限の暗黙ルール</h3>
+    <p>
+      求人票には書かれていなくても、エージェント経由で「35歳までの方を求めています」と暗に伝えられることが多いです。
+      未経験向け求人は「20代後半までの第二新卒枠」を想定していることが多いためです。
+    </p>
+
+    <h3>② 「年下上司」を受け入れられるか</h3>
+    <p>
+      SESや自社開発に入れば、入社直後は基本的に年下に教わります。
+      ここを受け入れられない人は、年齢に関係なく現場で苦労します。
+      面接でも「年下からの指導をどう思いますか」と聞かれます。
+    </p>
+
+    <h3>③ 学習時間の確保</h3>
+    <p>
+      30代になると家庭・育児・介護など制約が増えます。
+      20代と同じペースで勉強するのは難しいので、効率重視（動画学習＋ハンズオン）が必須です。
+    </p>
+
+    <h2>30代で成功する人の共通点</h2>
+    <ul>
+      <li>前職で何かしらの「専門性」を持っている（金融・医療・法務・営業など）</li>
+      <li>マネジメント経験 or リーダー経験がある</li>
+      <li>1日2時間以上の学習時間を半年以上継続できる</li>
+      <li>転職活動を「最低3ヶ月」覚悟して続けられる</li>
+      <li>年収ダウンを許容できる（最初の1〜2年は下がる前提）</li>
+    </ul>
+
+    <div class="highlight">
+      <p>「30代で年収を下げない」と「未経験エンジニア転職」を両立するのはほぼ不可能です。順序としては「下げる→2〜3年でリカバー」を覚悟しましょう。</p>
+    </div>
+
+    <h2>30代未経験が狙うべき会社の特徴</h2>
+    <ul>
+      <li>未経験採用に積極的なSES企業（年齢層が幅広い）</li>
+      <li>前職の業界知識が活きる業界特化のSI企業</li>
+      <li>研修制度が充実している企業（最初の3ヶ月は学習に使える）</li>
+      <li>受託開発の中堅企業（教育コストを許容してくれる）</li>
+    </ul>
+
+    <h2>30代がやってはいけないこと</h2>
+    <ul>
+      <li>「20代と同じ条件で勝負しよう」とすること</li>
+      <li>仕事を辞めてから勉強を始めること（収入ゼロ期間が長くなりやすい）</li>
+      <li>有名企業ばかり受けて消耗すること</li>
+      <li>1社目で「自社開発に絶対行く」と固執すること</li>
+    </ul>
+
+    <div class="affiliate-box">
+      <h4>30代未経験に強い転職エージェント</h4>
+      <p>30代の未経験転職は、求人を持っているエージェント選びが命です。年齢非公開の求人も提案してくれます。</p>
+      <a href="#" class="affiliate-btn">無料登録する →</a>
+      <p class="affiliate-note">※ アフィリエイトリンクです。サービスの品質は変わりません。</p>
+    </div>
+
+    <h2>まとめ：30代の転職は「準備」と「覚悟」がすべて</h2>
+    <p>
+      30代未経験エンジニア転職は決して不可能ではありません。
+      ただし「年齢のハンデを準備で埋める」「最初の年収ダウンを受け入れる」の2点を覚悟できれば、十分に道は開けます。
+      自分の周囲でも30代で転職して2年で年収を超えた人は何人もいます。データを正しく理解した上で動きましょう。
+    </p>
+
+  </div>
+
+  <div class="nav-articles">
+    <a href="article14.html" class="nav-article-link">← 前の記事：SESから自社開発へ</a>
+    <a href="article16.html" class="nav-article-link">次の記事：1年目に買ってよかったもの →</a>
+  </div>
+</div>
+
+<footer>
+  <p>© 2025 金融マンがエンジニアになった話 · <a href="index.html">トップへ</a></p>
+</footer>
+
+</body>
+</html>
