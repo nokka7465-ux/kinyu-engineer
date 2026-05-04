@@ -7,10 +7,19 @@
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
-  gtag("js", new Date());
-  gtag("config", "G-QPKSYX94QP");
+  window.addEventListener('DOMContentLoaded', function() {
+    gtag("js", new Date());
+    gtag("config", "G-QPKSYX94QP");
+  });
 </script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="alternate" type="application/rss+xml" title="金融マンがエンジニアになった話" href="/rss.xml">
+<meta name="theme-color" content="#1A3A2A">
 <title>金融マンがエンジニアになった話 | 異業種転職の実体験ブログ</title>
 <meta name="description" content="金融機関から未経験でITエンジニアに転職した実体験ブログ。転職の流れ・SESの実態・年収変化・使った転職エージェントを正直に公開。異業種からエンジニアを目指す方へ。">
 <meta name="keywords" content="金融 エンジニア 転職,異業種 エンジニア 転職,未経験 エンジニア 転職,SES 実態,エンジニア転職体験談">
@@ -461,6 +470,12 @@
   }
 
   html { scroll-behavior: smooth; }
+
+  .skip-link { position: absolute; top: -40px; left: 0; background: var(--accent); color: var(--bg); padding: 8px 16px; font-size: 13px; font-weight: 700; text-decoration: none; z-index: 999; transition: top 0.15s; }
+  .skip-link:focus { top: 0; outline: 2px solid var(--accent2); outline-offset: 0; }
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
+  }
 </style>
 <link rel="canonical" href="https://kinyu-engineer.github.io/">
 <script type="application/ld+json">
@@ -493,6 +508,7 @@
 </script>
 </head>
 <body>
+<a href="#main" class="skip-link">本文へスキップ</a>
 
 <nav>
   <div class="nav-logo">金融マンがエンジニアになった話</div>
@@ -503,7 +519,7 @@
   </div>
 </nav>
 
-<div class="hero">
+<div class="hero" id="main" tabindex="-1">
   <div class="hero-label">Real Story / 実体験ブログ</div>
   <h1>
     金融マンが

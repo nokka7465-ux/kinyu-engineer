@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>金融マンがエンジニアになった話</title>
+    <link>https://kinyu-engineer.github.io/</link>
+    <description>金融機関から未経験でITエンジニアに転職した実体験ブログ。</description>
+    <language>ja</language>
+    <atom:link href="https://kinyu-engineer.github.io/rss.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>Tue, 05 May 2026 02:31:48 +0900</lastBuildDate>
+    <item>
+      <title>エンジニアがChatGPTを業務で使い倒した方法【効率化の実例】</title>
+      <link>https://kinyu-engineer.github.io/article35.html</link>
+      <description>エンジニア業務でChatGPT・Claudeなど生成AIをどう使うか。1年使い倒した実例から、最も時短になったタスクと使う上での注意点まで具体的に紹介します。</description>
+      <pubDate>Tue, 05 May 2026 09:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://kinyu-engineer.github.io/article35.html</guid>
+    </item>
+    <item>
+      <title>未経験エンジニアの英語学習法【業務で使う最低限を3ヶ月で】</title>
+      <link>https://kinyu-engineer.github.io/article34.html</link>
+      <description>エンジニアに英語は必要なのか？業務で実際に使う英語の範囲、未経験から3ヶ月で身につけるべき最低限のスキルを実体験ベースで紹介します。</description>
+      <pubDate>Tue, 05 May 2026 09:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://kinyu-engineer.github.io/article34.html</guid>
+    </item>
+    <item>
+      <title>未経験エンジニアにスカウトメールは来るのか【3ヶ月の実数公開】</title>
+      <link>https://kinyu-engineer.github.io/article33.html</link>
+      <description>未経験で転職サイトに登録するとスカウトメールは届くのか？登録から3ヶ月の実データ（受信数・通過率・年収提示額）を公開し、活用法まで解説します。</description>
+      <pubDate>Tue, 05 May 2026 09:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://kinyu-engineer.github.io/article33.html</guid>
+    </item>
+    <item>
+      <title>ITパスポート vs 基本情報技術者【未経験はどっちを取るべきか】</title>
+      <link>https://kinyu-engineer.github.io/article32.html</link>
+      <description>未経験エンジニア転職で悩むITパスポートと基本情報技術者試験を、難易度・転職での評価・勉強時間の3軸で比較。実体験ベースで結論まで書きます。</description>
+      <pubDate>Tue, 05 May 2026 09:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://kinyu-engineer.github.io/article32.html</guid>
+    </item>
+    <item>
+      <title>エンジニアの退職交渉と引き継ぎ完全マニュアル【金融機関を辞めた実体験】</title>
+      <link>https://kinyu-engineer.github.io/article31.html</link>
+      <description>エンジニアへの転職時に必要な退職交渉と引き継ぎの進め方を、金融機関を実際に辞めた経験ベースで解説。トラブルなく辞めるためのスケジュールと文面例まで。</description>
+      <pubDate>Tue, 05 May 2026 09:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://kinyu-engineer.github.io/article31.html</guid>
+    </item>
+    <item>
+      <title>エンジニア1年目で身についた最も役立つスキル7選</title>
+      <link>https://kinyu-engineer.github.io/article30.html</link>
+      <description>未経験エンジニアの1年目で実際に身についた、これからも一生使うであろう実戦的スキルを7つに絞って実体験ベースで紹介します。</description>
+      <pubDate>Tue, 05 May 2026 09:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://kinyu-engineer.github.io/article30.html</guid>
+    </item>
+    <item>
+      <title>未経験エンジニアの月間労働時間【1年10ヶ月の実データ公開】</title>
+      <link>https://kinyu-engineer.github.io/article29.html</link>
+      <description>未経験エンジニアの労働時間は実際どれくらいか。SES1年10ヶ月の月間労働時間を月別に公開し、残業の実態と業界平均との比較まで書きます。</description>
+      <pubDate>Tue, 05 May 2026 09:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://kinyu-engineer.github.io/article29.html</guid>
+    </item>
+    <item>
+      <title>エンジニアの副業の始め方【就業規則を破らない範囲で月3万円】</title>
+      <link>https://kinyu-engineer.github.io/article28.html</link>
+      <description>エンジニアが本業を続けながら副業を始める手順を実体験ベースで解説。就業規則の確認・案件の探し方・確定申告の基本まで、月3万円ラインを目標に書きます。</description>
+      <pubDate>Tue, 05 May 2026 09:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://kinyu-engineer.github.io/article28.html</guid>
+    </item>
+    <item>
+      <title>客先常駐エンジニアの人間関係【SESで気をつけたこと】</title>
+      <link>https://kinyu-engineer.github.io/article27.html</link>
+      <description>SES・客先常駐の人間関係は実際どうなのか。1年10ヶ月のSES経験から、現場の人間関係で気をつけたこと・うまく立ち回るコツを正直に書きます。</description>
+      <pubDate>Tue, 05 May 2026 09:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://kinyu-engineer.github.io/article27.html</guid>
+    </item>
+    <item>
+      <title>転職サイト・エージェント・リファラル違い【未経験はどれを使うべきか】</title>
+      <link>https://kinyu-engineer.github.io/article26.html</link>
+      <description>未経験エンジニア転職で使える「転職サイト」「転職エージェント」「リファラル」の違いと向き不向きを実体験ベースで比較。どれを優先すべきか結論まで書きます。</description>
+      <pubDate>Tue, 05 May 2026 09:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://kinyu-engineer.github.io/article26.html</guid>
+    </item>
+    <item>
+      <title>フリーランスエンジニアの年収シミュレーション【SES経験から】</title>
+      <link>https://kinyu-engineer.github.io/article25.html</link>
+      <description>フリーランスエンジニアになると年収はどう変わるか。月単価・経費・税金・社会保険を含めた手取りシミュレーションと、独立に必要な経験年数を実数で公開します。</description>
+      <pubDate>Sat, 03 May 2025 09:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://kinyu-engineer.github.io/article25.html</guid>
+    </item>
+    <item>
+      <title>コードレビューで言われた指摘TOP10【新人時代の失敗集】</title>
+      <link>https://kinyu-engineer.github.io/article24.html</link>
+      <description>未経験エンジニア1年目のコードレビューで実際に指摘された内容をTOP10形式でまとめました。新人がやりがちなミスと、どう改善したかの具体例を公開します。</description>
+      <pubDate>Sat, 03 May 2025 09:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://kinyu-engineer.github.io/article24.html</guid>
+    </item>
+    <item>
+      <title>文系出身 vs 理系出身 エンジニア転職での差は？【現場の実感】</title>
+      <link>https://kinyu-engineer.github.io/article23.html</link>
+      <description>エンジニア転職で「文系は不利」は本当か。採用・学習速度・現場での評価を、文系出身の経験者として正直に検証。文系出身者が活躍するための戦略も紹介します。</description>
+      <pubDate>Sat, 03 May 2025 09:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://kinyu-engineer.github.io/article23.html</guid>
+    </item>
+    <item>
+      <title>技術ブログの始め方と継続のコツ【未経験エンジニア向け】</title>
+      <link>https://kinyu-engineer.github.io/article22.html</link>
+      <description>未経験エンジニアが技術ブログを始めるべき理由と、Qiita・Zenn・はてなブログ・自前ブログの選び方、継続のコツをまとめました。転職活動でも武器になります。</description>
+      <pubDate>Sat, 03 May 2025 09:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://kinyu-engineer.github.io/article22.html</guid>
+    </item>
+    <item>
+      <title>SESエンジニアのリモートワーク実態【1年半の体験談】</title>
+      <link>https://kinyu-engineer.github.io/article21.html</link>
+      <description>SESエンジニアのリモートワークは本当に可能か。フルリモート・ハイブリッド・出社の比率、現場別のリアル、リモートワークしやすい現場の見極め方を実体験から書きます。</description>
+      <pubDate>Sat, 03 May 2025 09:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://kinyu-engineer.github.io/article21.html</guid>
+    </item>
+    <item>
+      <title>SES配属ガチャの実態と対処法【経験者が正直に語る】</title>
+      <link>https://kinyu-engineer.github.io/article20.html</link>
+      <description>SESの「配属ガチャ」は本当にあるのか。当たり現場・外れ現場の特徴、外れを引いたときの対処法、入社前にできるリスク回避策を経験者の視点でまとめました。</description>
+      <pubDate>Sat, 03 May 2025 09:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://kinyu-engineer.github.io/article20.html</guid>
+    </item>
+    <item>
+      <title>エンジニア転職に効く資格3選【取得した正直な感想】</title>
+      <link>https://kinyu-engineer.github.io/article19.html</link>
+      <description>未経験エンジニア転職で本当に評価される資格を3つに厳選。基本情報・AWS SAA・LPICを実際に取得した感想と、転職活動で使えた場面を正直に書きます。</description>
+      <pubDate>Sat, 03 May 2025 09:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://kinyu-engineer.github.io/article19.html</guid>
+    </item>
+    <item>
+      <title>業務外で勉強を続けるコツ【1年半続けた7つの方法】</title>
+      <link>https://kinyu-engineer.github.io/article18.html</link>
+      <description>エンジニアが業務外で勉強を続けるための具体的な7つのコツを実体験ベースで紹介。1年半継続できた仕組みづくりと、挫折しない目標設定の方法を公開します。</description>
+      <pubDate>Sat, 03 May 2025 09:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://kinyu-engineer.github.io/article18.html</guid>
+    </item>
+    <item>
+      <title>SES vs SIer vs 自社開発 徹底比較【未経験はどれを選ぶべきか】</title>
+      <link>https://kinyu-engineer.github.io/article17.html</link>
+      <description>エンジニア転職で必ず迷う「SES・SIer・自社開発」の3業態を、給与・スキル・働き方・キャリアの4軸で徹底比較。未経験はどれを選ぶべきか実体験から解説します。</description>
+      <pubDate>Sat, 03 May 2025 09:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://kinyu-engineer.github.io/article17.html</guid>
+    </item>
+    <item>
+      <title>エンジニア1年目に買ってよかったもの10選【投資対効果◎】</title>
+      <link>https://kinyu-engineer.github.io/article16.html</link>
+      <description>未経験エンジニア1年目に実際に買ってよかったガジェット・書籍・サービスを10個紹介。学習効率と仕事の生産性が大きく上がったものだけを厳選しました。</description>
+      <pubDate>Sat, 03 May 2025 09:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://kinyu-engineer.github.io/article16.html</guid>
+    </item>
+    <item>
+      <title>30代未経験でもエンジニア転職できるか【データで検証】</title>
+      <link>https://kinyu-engineer.github.io/article15.html</link>
+      <description>30代未経験からエンジニア転職は本当に可能なのか。年齢別の転職成功率データ・周囲の事例・年代別に必要な準備を、実体験ベースで整理しました。</description>
+      <pubDate>Sat, 03 May 2025 09:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://kinyu-engineer.github.io/article15.html</guid>
+    </item>
+    <item>
+      <title>SESから自社開発に転職する方法【経験者が語る現実】</title>
+      <link>https://kinyu-engineer.github.io/article14.html</link>
+      <description>SESから自社開発企業に転職するために必要なスキル・経験年数・準備すべきポートフォリオ・面接対策を、経験者の視点から正直にまとめました。</description>
+      <pubDate>Sat, 03 May 2025 09:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://kinyu-engineer.github.io/article14.html</guid>
+    </item>
+    <item>
+      <title>未経験エンジニアのポートフォリオは何を作るべきか【内定獲得例】</title>
+      <link>https://kinyu-engineer.github.io/article13.html</link>
+      <description>未経験エンジニア転職で内定をもらうために必要なポートフォリオは何を作ればいいか。実際に内定をもらった作品例と、面接で評価されたポイントを公開します。</description>
+      <pubDate>Sat, 03 May 2025 09:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://kinyu-engineer.github.io/article13.html</guid>
+    </item>
+    <item>
+      <title>プログラミングスクール vs 独学 どっちが転職に有利か【比較】</title>
+      <link>https://kinyu-engineer.github.io/article12.html</link>
+      <description>未経験エンジニア転職を目指すなら、プログラミングスクールと独学どちらが有利か。費用・期間・転職成功率・実体験を比較し、タイプ別におすすめを正直に紹介します。</description>
+      <pubDate>Sat, 03 May 2025 09:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://kinyu-engineer.github.io/article12.html</guid>
+    </item>
+    <item>
+      <title>金融知識はエンジニア転職で武器になるか【正直な体験談】</title>
+      <link>https://kinyu-engineer.github.io/article11.html</link>
+      <description>金融機関での経験はエンジニア転職で本当に評価されるのか。Fintech・SIer・SESそれぞれでの実体験から、金融知識が武器になる場面とならない場面を正直に書きます。</description>
+      <pubDate>Sat, 03 May 2025 09:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://kinyu-engineer.github.io/article11.html</guid>
+    </item>
+    <item>
+      <title>エンジニア転職して後悔したこと・よかったこと【正直レビュー】</title>
+      <link>https://kinyu-engineer.github.io/article10.html</link>
+      <description>金融からエンジニアに転職して1年半。後悔したこと・よかったことを正直にレビューします。転職を迷っている方の判断材料にどうぞ。</description>
+      <pubDate>Sat, 26 Apr 2025 09:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://kinyu-engineer.github.io/article10.html</guid>
+    </item>
+    <item>
+      <title>Pythonを3ヶ月独学してエンジニア転職した方法【ロードマップ公開】</title>
+      <link>https://kinyu-engineer.github.io/article9.html</link>
+      <description>Pythonを3ヶ月独学してエンジニア転職を成功させた学習ロードマップを公開。使った教材・学習の順番・つまずいたポイントを正直に書きます。</description>
+      <pubDate>Sat, 26 Apr 2025 09:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://kinyu-engineer.github.io/article9.html</guid>
+    </item>
+    <item>
+      <title>SESエンジニアの1日のスケジュール【リアルな働き方を公開】</title>
+      <link>https://kinyu-engineer.github.io/article8.html</link>
+      <description>SESエンジニアとして働く1日のスケジュールをリアルに公開。金融時代との違い・働きやすさの変化も正直に書きます。</description>
+      <pubDate>Sat, 26 Apr 2025 09:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://kinyu-engineer.github.io/article8.html</guid>
+    </item>
+    <item>
+      <title>未経験エンジニア転職の面接で聞かれること【実際の質問と回答例】</title>
+      <link>https://kinyu-engineer.github.io/article7.html</link>
+      <description>未経験エンジニア転職の面接で実際に聞かれた質問と回答例をまとめました。金融出身者が意識すべきポイントも解説。</description>
+      <pubDate>Sat, 26 Apr 2025 09:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://kinyu-engineer.github.io/article7.html</guid>
+    </item>
+    <item>
+      <title>エンジニア転職前に知っておきたかった10のこと</title>
+      <link>https://kinyu-engineer.github.io/article6.html</link>
+      <description>エンジニアに転職する前に知っておきたかったことを正直に10個まとめました。転職を考えている方は必読です。</description>
+      <pubDate>Sat, 26 Apr 2025 09:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://kinyu-engineer.github.io/article6.html</guid>
+    </item>
+    <item>
+      <title>金融→エンジニア転職で年収はどう変わったか【実数公開】</title>
+      <link>https://kinyu-engineer.github.io/article5.html</link>
+      <description>金融機関からエンジニアに転職して年収はどう変わったか正直に公開。転職前後の年収・将来の年収見通しを実体験から語ります。</description>
+      <pubDate>Fri, 25 Apr 2025 09:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://kinyu-engineer.github.io/article5.html</guid>
+    </item>
+    <item>
+      <title>未経験エンジニア転職エージェントおすすめ3選【実際に使った】</title>
+      <link>https://kinyu-engineer.github.io/article4.html</link>
+      <description>未経験からエンジニア転職に実際に使った転職エージェントを正直に比較。使いやすさ・求人数・サポート力を評価します。</description>
+      <pubDate>Fri, 25 Apr 2025 09:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://kinyu-engineer.github.io/article4.html</guid>
+    </item>
+    <item>
+      <title>異業種からエンジニア転職する具体的な手順【未経験OK】</title>
+      <link>https://kinyu-engineer.github.io/article3.html</link>
+      <description>異業種・未経験からエンジニアに転職するための具体的な手順を解説。スキル習得・ポートフォリオ作成・転職活動の流れをステップ別にまとめました。</description>
+      <pubDate>Fri, 25 Apr 2025 09:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://kinyu-engineer.github.io/article3.html</guid>
+    </item>
+    <item>
+      <title>未経験でSESに入社して1年半経った正直な感想</title>
+      <link>https://kinyu-engineer.github.io/article2.html</link>
+      <description>未経験でSES企業に入社して1年半。SESの実態・良いところ・きついところを正直に書きます。SESへの転職を考えている方へ。</description>
+      <pubDate>Fri, 25 Apr 2025 09:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://kinyu-engineer.github.io/article2.html</guid>
+    </item>
+    <item>
+      <title>金融機関からエンジニアに転職した正直な話</title>
+      <link>https://kinyu-engineer.github.io/article1.html</link>
+      <description>金融機関から未経験でITエンジニアに転職した実体験を正直に書きます。なぜ転職したのか・どう準備したか・転職活動の流れを全部公開。</description>
+      <pubDate>Fri, 25 Apr 2025 09:00:00 +0900</pubDate>
+      <guid isPermaLink="true">https://kinyu-engineer.github.io/article1.html</guid>
+    </item>
+  </channel>
+</rss>

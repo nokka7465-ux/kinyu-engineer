@@ -97,6 +97,37 @@ GitHub Pages 想定。`main` ブランチをそのまま公開すれば動作し
 - 記事を追加した際は `index.html` の該当カテゴリブロックにカード（`.article-item`）を追加してください。
 - フッターの `© 2025-2026` 表記は新年に更新を忘れないこと。
 
+## 残タスク（外部情報が必要）
+
+### 1. アフィリエイトリンクの差し替え
+
+`href="#"` の affiliate-btn が30箇所あります（`grep -n 'href="#" class="affiliate-btn"' *.html` で一覧取得可）。
+ASP（A8.net・もしもアフィリエイト 等）から発行された成果リンクを取得後、
+`href="#"` を実 URL に置換してください。`rel="sponsored noopener"` と `target="_blank"` は既に付与済みです。
+
+### 2. カスタムドメイン化
+
+GitHub Pages にカスタムドメインを設定する場合、リポジトリ直下に `CNAME` ファイル
+（中身：`example.com` など独自ドメイン）を作成し、`main` ブランチに push します。
+DNS 側で `CNAME` レコード（`www`）または `A` レコード（apex）を GitHub Pages の
+IP（`185.199.108.153` 〜 `185.199.111.153`）に向ける設定も必要です。
+`og:url` / `og:image` / `canonical` / `sitemap.xml` / `robots.txt` 内の
+`https://kinyu-engineer.github.io` を新ドメインに一括置換してください。
+
+### 3. Google Search Console / Bing Webmaster Tools への登録
+
+サイトマップを検索エンジンに認識させるための登録手順：
+
+- **Google Search Console**: https://search.google.com/search-console
+  プロパティ追加 → URL プレフィックス → `https://kinyu-engineer.github.io/`
+  → 所有権確認（HTML タグ法のメタを `index.html` の `<head>` に貼る）
+  → サイトマップ → `sitemap.xml` を送信
+- **Bing Webmaster Tools**: https://www.bing.com/webmasters
+  Search Console から自動インポート可能。
+
+メタタグでの所有権確認をする場合、`<meta name="google-site-verification" content="...">`
+を `index.html` の `<head>` 内（`<title>` の前後）に追加すれば OK です。
+
 ## 外部リンク
 
 - 統計検定 学習帳: https://toukei-app-eight.vercel.app
