@@ -2,14 +2,15 @@
   "name": "金融マンがエンジニアになった話",
   "short_name": "金融マン→エンジニア",
   "description": "金融機関から未経験でITエンジニアに転職した実体験ブログ。",
-  "start_url": "/",
+  "start_url": "https://nokka7465-ux.github.io/kinyu-engineer/",
+  "scope": "https://nokka7465-ux.github.io/kinyu-engineer/",
   "display": "standalone",
   "background_color": "#F5F0E8",
   "theme_color": "#1A3A2A",
   "lang": "ja",
   "icons": [
-    { "src": "/favicon-16x16.png", "sizes": "16x16", "type": "image/png" },
-    { "src": "/favicon-32x32.png", "sizes": "32x32", "type": "image/png" },
-    { "src": "/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+    { "src": "https://nokka7465-ux.github.io/kinyu-engineer/favicon-16x16.png", "sizes": "16x16", "type": "image/png" },
+    { "src": "https://nokka7465-ux.github.io/kinyu-engineer/favicon-32x32.png", "sizes": "32x32", "type": "image/png" },
+    { "src": "https://nokka7465-ux.github.io/kinyu-engineer/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
   ]
 }

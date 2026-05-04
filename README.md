@@ -3,7 +3,7 @@
 金融機関から未経験で IT エンジニアに転身した実体験ブログの静的サイトです。
 転職の流れ・SES の実態・年収変化・使った転職エージェントを正直に公開しています。
 
-- 公開URL（想定）: https://kinyu-engineer.github.io/
+- 公開URL（想定）: https://nokka7465-ux.github.io/kinyu-engineer/
 - 運営者: tamal（たまる）
 
 ## 構成
@@ -119,7 +119,7 @@ IP（`185.199.108.153` 〜 `185.199.111.153`）に向ける設定も必要です
 サイトマップを検索エンジンに認識させるための登録手順：
 
 - **Google Search Console**: https://search.google.com/search-console
-  プロパティ追加 → URL プレフィックス → `https://kinyu-engineer.github.io/`
+  プロパティ追加 → URL プレフィックス → `https://nokka7465-ux.github.io/kinyu-engineer/`
   → 所有権確認（HTML タグ法のメタを `index.html` の `<head>` に貼る）
   → サイトマップ → `sitemap.xml` を送信
 - **Bing Webmaster Tools**: https://www.bing.com/webmasters

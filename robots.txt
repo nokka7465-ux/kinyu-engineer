@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://kinyu-engineer.github.io/sitemap.xml
+Sitemap: https://nokka7465-ux.github.io/kinyu-engineer/sitemap.xml
