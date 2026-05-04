@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ページが見つかりません | 金融マンがエンジニアになった話</title>
+<meta name="description" content="お探しのページは見つかりませんでした。トップページから記事一覧をご覧ください。">
+<meta name="robots" content="noindex,follow">
+<link rel="canonical" href="https://kinyu-engineer.github.io/404.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700;900&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #F5F0E8; --card: #FDFAF4;
+    --accent: #1A3A2A; --accent2: #C4572A;
+    --text: #1C1A16; --text2: #5C5648; --text3: #9C9080;
+    --border: rgba(28,26,22,0.12);
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--bg); color: var(--text);
+    font-family: 'Noto Serif JP', serif; line-height: 1.9;
+    min-height: 100vh; display: flex; flex-direction: column;
+  }
+  nav {
+    position: sticky; top: 0; z-index: 100;
+    background: rgba(245,240,232,0.92); backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--border);
+    padding: 0 2rem; display: flex; align-items: center; justify-content: space-between; height: 52px;
+  }
+  .nav-logo { font-size: 13px; font-weight: 700; color: var(--accent); text-decoration: none; }
+  .nav-back { font-family: 'DM Mono', monospace; font-size: 12px; color: var(--text2); text-decoration: none; }
+  .nav-back:hover { color: var(--accent); }
+  main {
+    flex: 1; max-width: 720px; margin: 0 auto;
+    padding: 6rem 2rem; text-align: center;
+  }
+  .err-num {
+    font-family: 'DM Mono', monospace; font-size: clamp(4rem, 12vw, 7rem);
+    font-weight: 500; color: var(--accent2); line-height: 1; letter-spacing: -0.04em;
+  }
+  .err-label {
+    font-family: 'DM Mono', monospace; font-size: 11px;
+    color: var(--text3); letter-spacing: 0.15em; text-transform: uppercase;
+    margin-top: 0.5rem;
+  }
+  h1 {
+    font-size: clamp(1.6rem, 4vw, 2.2rem); font-weight: 900;
+    color: var(--accent); margin-top: 2rem; line-height: 1.4;
+  }
+  p {
+    font-size: 14px; color: var(--text2); line-height: 2;
+    margin: 1.5rem 0 2.5rem;
+  }
+  .btns { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; }
+  .btn-primary {
+    background: var(--accent); color: var(--bg);
+    font-weight: 700; font-size: 14px; padding: 12px 28px;
+    border-radius: 2px; text-decoration: none;
+    transition: opacity 0.2s, transform 0.2s; letter-spacing: 0.05em;
+  }
+  .btn-primary:hover { opacity: 0.85; transform: translateY(-2px); }
+  .btn-secondary {
+    background: transparent; color: var(--text);
+    font-family: 'DM Mono', monospace; font-size: 12px;
+    padding: 12px 24px; border-radius: 2px;
+    border: 1px solid var(--border); text-decoration: none;
+    transition: all 0.2s;
+  }
+  .btn-secondary:hover { border-color: var(--accent); color: var(--accent); }
+  footer {
+    background: var(--accent); padding: 2rem; text-align: center;
+    font-family: 'DM Mono', monospace; font-size: 11px;
+    color: rgba(245,240,232,0.5);
+  }
+  footer a { color: rgba(245,240,232,0.7); text-decoration: none; }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="/" class="nav-logo">金融マンがエンジニアになった話</a>
+  <a href="/" class="nav-back">← トップへ</a>
+</nav>
+
+<main>
+  <div class="err-num">404</div>
+  <div class="err-label">Page Not Found</div>
+  <h1>お探しのページは見つかりませんでした</h1>
+  <p>
+    URL が変更されたか、削除された可能性があります。<br>
+    トップページから記事一覧をご覧ください。
+  </p>
+  <div class="btns">
+    <a href="/" class="btn-primary">トップへ戻る →</a>
+    <a href="/#articles" class="btn-secondary">記事一覧</a>
+  </div>
+</main>
+
+<footer>
+  <p>© 2025-2026 金融マンがエンジニアになった話 · <a href="/">トップへ</a></p>
+</footer>
+
+</body>
+</html>
