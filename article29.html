@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QPKSYX94QP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag("js", new Date());
+  gtag("config", "G-QPKSYX94QP");
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>未経験エンジニアの月間労働時間【1年10ヶ月の実データ公開】 | 金融マンがエンジニアになった話</title>
+<meta name="description" content="未経験エンジニアの労働時間は実際どれくらいか。SES1年10ヶ月の月間労働時間を月別に公開し、残業の実態と業界平均との比較まで書きます。">
+<meta property="og:title" content="未経験エンジニアの月間労働時間【1年10ヶ月の実データ公開】">
+<meta property="og:description" content="未経験エンジニアの労働時間は実際どれくらいか。SES1年10ヶ月の月間労働時間を月別に公開し、残業の実態と業界平均との比較まで書きます。">
+<meta property="og:url" content="https://kinyu-engineer.github.io/article29.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="金融マンがエンジニアになった話">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="未経験エンジニアの月間労働時間【1年10ヶ月の実データ公開】">
+<meta name="twitter:description" content="未経験エンジニアの労働時間は実際どれくらいか。SES1年10ヶ月の月間労働時間を月別に公開し、残業の実態と業界平均との比較まで書きます。">
+<link rel="canonical" href="https://kinyu-engineer.github.io/article29.html">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "未経験エンジニアの月間労働時間【1年10ヶ月の実データ公開】",
+  "description": "未経験エンジニアの労働時間は実際どれくらいか。SES1年10ヶ月の月間労働時間を月別に公開し、残業の実態と業界平均との比較まで書きます。",
+  "url": "https://kinyu-engineer.github.io/article29.html",
+  "mainEntityOfPage": "https://kinyu-engineer.github.io/article29.html",
+  "datePublished": "2026-05-05",
+  "dateModified": "2026-05-05",
+  "author": {
+    "@type": "Person",
+    "name": "tamal"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "金融マンがエンジニアになった話"
+  },
+  "articleSection": "データ",
+  "inLanguage": "ja"
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700;900&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #F5F0E8; --bg2: #EDE8DC; --card: #FDFAF4;
+    --accent: #1A3A2A; --accent2: #C4572A; --accent3: #8B6914;
+    --text: #1C1A16; --text2: #5C5648; --text3: #9C9080;
+    --border: rgba(28,26,22,0.12); --border2: rgba(28,26,22,0.06);
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--bg); color: var(--text); font-family: 'Noto Serif JP', serif; line-height: 1.9; }
+  nav { position: sticky; top: 0; z-index: 100; background: rgba(245,240,232,0.92); backdrop-filter: blur(8px); border-bottom: 1px solid var(--border); padding: 0 2rem; display: flex; align-items: center; justify-content: space-between; height: 52px; }
+  .nav-logo { font-size: 13px; font-weight: 700; color: var(--accent); text-decoration: none; }
+  .nav-back { font-family: 'DM Mono', monospace; font-size: 12px; color: var(--text2); text-decoration: none; }
+  .nav-back:hover { color: var(--accent); }
+  .article-wrap { max-width: 720px; margin: 0 auto; padding: 4rem 2rem 6rem; }
+  .article-meta { display: flex; align-items: center; gap: 12px; margin-bottom: 1.5rem; }
+  .article-tag { font-family: 'DM Mono', monospace; font-size: 10px; padding: 2px 8px; border-radius: 2px; background: rgba(28,26,22,0.08); color: var(--text2); }
+  .article-date { font-family: 'DM Mono', monospace; font-size: 11px; color: var(--text3); }
+  .article-title { font-size: clamp(1.6rem, 4vw, 2.4rem); font-weight: 900; color: var(--accent); line-height: 1.3; margin-bottom: 1rem; letter-spacing: -0.02em; }
+  .article-lead { font-size: 1rem; color: var(--text2); border-left: 3px solid var(--accent2); padding-left: 1.2rem; margin-bottom: 3rem; line-height: 2; }
+  .article-body h2 { font-size: 1.3rem; font-weight: 700; color: var(--accent); margin: 2.5rem 0 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border); }
+  .article-body h3 { font-size: 1.1rem; font-weight: 700; color: var(--text); margin: 2rem 0 0.8rem; padding-left: 0.8rem; border-left: 3px solid var(--accent3); }
+  .article-body p { font-size: 14px; color: var(--text2); margin-bottom: 1.2rem; line-height: 2; }
+  .article-body ul { margin: 1rem 0 1.2rem 1.5rem; }
+  .article-body ul li { font-size: 14px; color: var(--text2); margin-bottom: 0.5rem; line-height: 1.8; }
+  .highlight { background: rgba(196,87,42,0.08); border-radius: 4px; padding: 1.2rem 1.5rem; margin: 1.5rem 0; border-left: 3px solid var(--accent2); }
+  .highlight p { margin-bottom: 0; font-size: 14px; color: var(--text); }
+  .affiliate-box { background: var(--card); border: 1px solid var(--border); border-radius: 4px; padding: 1.5rem; margin: 2rem 0; }
+  .affiliate-box h4 { font-size: 14px; font-weight: 700; color: var(--accent); margin-bottom: 0.5rem; }
+  .affiliate-box p { font-size: 12px; color: var(--text2); margin-bottom: 1rem; }
+  .affiliate-btn { display: inline-flex; align-items: center; gap: 6px; background: var(--accent2); color: white; font-size: 13px; font-weight: 700; padding: 8px 20px; border-radius: 2px; text-decoration: none; transition: opacity 0.2s; }
+  .affiliate-btn:hover { opacity: 0.85; }
+  .affiliate-note { font-size: 11px; color: var(--text3); margin-top: 8px; font-family: 'DM Mono', monospace; }
+  .nav-articles { display: flex; justify-content: space-between; margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--border); gap: 1rem; flex-wrap: wrap; }
+  .nav-article-link { font-size: 13px; color: var(--accent); text-decoration: none; font-weight: 700; }
+  .nav-article-link:hover { color: var(--accent2); }
+  footer { background: var(--accent); padding: 2rem; text-align: center; font-family: 'DM Mono', monospace; font-size: 11px; color: rgba(245,240,232,0.5); }
+  footer a { color: rgba(245,240,232,0.7); text-decoration: none; }
+  html { scroll-behavior: smooth; }
+  .reading-progress { position: fixed; top: 0; left: 0; height: 3px; background: var(--accent2); width: 0; z-index: 200; transition: width 0.1s ease-out; pointer-events: none; }
+</style>
+</head>
+<body>
+<div class="reading-progress" id="readProgress" aria-hidden="true"></div>
+
+<nav>
+  <a href="index.html" class="nav-logo">金融マンがエンジニアになった話</a>
+  <a href="index.html" class="nav-back">← 記事一覧</a>
+</nav>
+
+<div class="article-wrap">
+  <div class="article-meta">
+    <span class="article-tag">データ</span>
+    <span class="article-date">2026.05.05</span>
+  </div>
+
+  <h1 class="article-title">未経験エンジニアの月間労働時間【1年10ヶ月の実データ公開】</h1>
+
+  <p class="article-lead">
+    「未経験エンジニアって残業多いの？」「SESはきつい？」と不安を持っている方へ、実データを公開します。私がSES1年10ヶ月で記録した月間労働時間を月別にまとめ、業界平均との比較も書きました。
+  </p>
+
+  <div class="article-body">
+
+      <h2>月別の月間労働時間（SES 1年10ヶ月分）</h2>
+      <p>結論から書くと、月平均労働時間は168時間でした。所定労働時間（160時間）との差は月8時間程度。残業は少ない方の現場だったと思います。</p>
+      <ul>
+        <li>入社1〜3ヶ月（研修期）: 月160〜165時間（残業ほぼなし）</li>
+        <li>入社4〜6ヶ月（初現場前半）: 月170〜180時間（慣れず10〜20h残業）</li>
+        <li>入社7〜12ヶ月（初現場後半）: 月165〜170時間（業務に慣れて残業減）</li>
+        <li>入社13〜18ヶ月（同現場継続）: 月165時間前後（安定期）</li>
+        <li>入社19〜22ヶ月（リリース直前期含む）: 月175〜185時間（リリース月のみ20h残業）</li>
+      </ul>
+      <div class="highlight">
+        <p>※ 月20h残業の月でも、所定+残業=180hで一般企業の月170〜200h水準と大差ありません。SES＝激務 のイメージは現場による差が大きい。</p>
+      </div>
+
+      <h2>業界平均との比較</h2>
+      <h3>IT業界全体の平均</h3>
+      <p>厚生労働省の毎月勤労統計や民間調査によると、IT業界正社員の平均月間労働時間は170〜175時間（残業10〜15時間）程度です。私の実データはほぼ業界平均の範囲。</p>
+      <h3>金融業界の労働時間との比較</h3>
+      <p>前職の金融機関時代は月190〜210時間が当たり前で、繁忙期は230時間超えもありました。エンジニアに転職して月20〜40時間労働時間が減ったのが体感的にも大きい。</p>
+      <h3>SES内での現場差</h3>
+      <p>同期入社の話を聞くと、月220時間（残業60h）の現場もあれば、月155時間（フレックスで早帰り）の現場もありました。SES全体の平均というより、配属先で大きく変わるのが実態。</p>
+
+      <h2>残業時間を抑えるためにやったこと</h2>
+      <h3>1. 業務の分解と見積もりを早めに出す</h3>
+      <p>「これ何時間で終わりますか」と聞かれたら、すぐに分解して見積もりを返す。曖昧に「やってみます」と言うと際限なく残業します。</p>
+      <h3>2. 17時時点で残タスクを共有</h3>
+      <p>17時に「今日はここまで終わりそうです、残りは明日です」と共有すると、無理な巻き取り依頼が減ります。</p>
+      <h3>3. 月の上限を自分で握る</h3>
+      <p>「月20h残業まで」と自分で決めて、超えそうな月は事前にアラートを上げる。事後報告だと調整が効きません。</p>
+
+      <h2>労働時間が長い現場のサインと回避法</h2>
+      <h3>労働時間が長い現場のサイン</h3>
+      <ul>
+        <li>会議が多い・長い（1日3〜4時間が会議など）</li>
+        <li>リリース直前にしか動かないチーム</li>
+        <li>プロパーが慢性的に深夜残業している</li>
+        <li>「炎上案件です」が引き継ぎ時に言われる</li>
+      </ul>
+      <h3>回避法</h3>
+      <ul>
+        <li>面談時に「平均残業時間」を必ず聞く（数字で）</li>
+        <li>可能なら現場見学・カジュアル面談で雰囲気を見る</li>
+        <li>配属後きつかったら自社の営業に早めに相談する（我慢しない）</li>
+      </ul>
+
+      <h2>まとめ：未経験エンジニアの労働時間は思ったほど長くない</h2>
+      <p>実データを取った結論として、未経験エンジニアの労働時間は世間のイメージほど長くありません。月20h残業を上限にしておけば、家庭・副業・勉強と両立できます。</p>
+      <p>配属先による差は確かにあるので、面談時に必ず「平均残業時間」を確認するのを忘れずに。</p>
+
+    <div class="affiliate-box">
+      <h4>残業少なめの現場を希望するなら</h4>
+      <p>「月20h残業以内の現場」「フレックス・リモート可」など条件を伝えれば、エージェントは該当現場を絞って紹介してくれます。複数社で条件を揃えて比較するのがおすすめ。</p>
+      <a href="#" class="affiliate-btn" target="_blank" rel="sponsored noopener">無料相談してみる →</a>
+      <p class="affiliate-note">※ アフィリエイトリンクです。サービスの品質は変わりません。</p>
+    </div>
+
+  </div>
+
+  <div class="nav-articles">
+    <a href="article28.html" class="nav-article-link">← 前の記事：エンジニアの副業の始め方</a>
+    <a href="article30.html" class="nav-article-link">次の記事：エンジニア1年目で身についた最も役立つスキル7選 →</a>
+  </div>
+</div>
+
+<footer>
+  <p>© 2025-2026 金融マンがエンジニアになった話 · <a href="index.html">トップへ</a></p>
+</footer>
+
+<script>
+  (function() {
+    var bar = document.getElementById('readProgress');
+    if (!bar) return;
+    function update() {
+      var h = document.documentElement;
+      var height = h.scrollHeight - h.clientHeight;
+      var pct = height > 0 ? (h.scrollTop / height) * 100 : 0;
+      bar.style.width = pct + '%';
+    }
+    window.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('resize', update);
+    update();
+  })();
+</script>
+</body>
+</html>
